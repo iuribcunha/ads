@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="simulado, ads, analise e desenvolvimento de sistemas, algoritmo, logica de programacao, faculdade, quiz, prova" />
+<link rel="stylesheet" href="https://unpkg.com/buefy@0.9/dist/buefy.min.css">
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<title>Simulado ADS</title>
+<style>
+  :root {
+    --ads-primary: #2f6fed;
+    --ads-primary-dark: #1e4fb8;
+    --ads-dark: #10172a;
+    --ads-bg: #f4f6fb;
+  }
+  body {
+    background: var(--ads-bg);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  .hero-banner {
+    background: linear-gradient(135deg, var(--ads-dark) 0%, var(--ads-primary-dark) 100%);
+    color: #fff;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    border-radius: 0 0 18px 18px;
+    margin-bottom: 1.5rem;
+  }
+  .hero-banner .title-code {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    opacity: .85;
+    font-size: .85rem;
+    text-transform: uppercase;
+  }
+  .hero-banner .article-title {
+    color: #fff !important;
+    font-weight: 800;
+    margin-top: .3rem;
+  }
+  .card.article {
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(16, 23, 42, 0.08);
+    border: 1px solid #e6e9f2;
+  }
+  .buttons.ebook-list .button {
+    justify-content: flex-start;
+    text-align: left;
+    height: auto;
+    padding: 1rem 1.2rem;
+    white-space: normal;
+  }
+  .b-button.is-primary {
+    background-color: var(--ads-primary);
+  }
+  .b-button.is-primary:hover {
+    background-color: var(--ads-primary-dark);
+  }
+  .ebook-meta {
+    font-size: .8rem;
+    opacity: .75;
+    display: block;
+    margin-top: .15rem;
+  }
+  footer.site-footer {
+    text-align: center;
+    padding: 1.5rem 1rem 2.5rem;
+    font-size: .8rem;
+    opacity: .6;
+  }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <div class="hero-banner">
+    <p class="title-code">Curso &middot; Análise e Desenvolvimento de Sistemas</p>
+    <p class="title article-title">Simulado ADS</p>
+    <p>Banco de questões baseado no material didático do curso</p>
+  </div>
+
+  <div class="container">
+    <section class="articles">
+      <div class="column is-8 is-offset-2">
+
+        <!-- TELA DE SELEÇÃO -->
+        <div class="card article" v-if="!provaSelecionada">
+          <div class="card-content">
+            <div class="content article-body">
+              <p><strong>Selecione um ebook / disciplina para praticar:</strong></p>
+              <p class="ebook-meta">Cada tentativa sorteia {{ quantidadePerguntas }} perguntas aleatórias do banco daquele ebook.</p>
+              <br>
+              <div class="buttons ebook-list">
+                <b-button type="is-primary" expanded v-for="prova in provas" :key="prova.arquivo" @click="provaSelecionada = prova">
+                  <span>
+                    {{ prova.titulo }}
+                    <span class="ebook-meta">{{ prova.materia }}</span>
+                  </span>
+                </b-button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TELA DE RESULTADO / QUIZ -->
+        <div class="card article" v-else>
+
+          <div class="card-content" v-if="terminou">
+            <div class="media">
+              <div class="media-content has-text-centered">
+                <p class="title article-title" style="color:#10172a !important;">Resultado</p>
+                <p>Ebook: {{ provaSelecionada.titulo }}</p>
+                <p>Acertos: <strong>{{ totalAcertos }}</strong> de <strong>{{ totalPerguntas }}</strong> (<strong>{{ porcentagemAcerto }}%</strong>)</p>
+                <p v-if="tempoEsgotado" class="has-text-danger"><strong>Tempo esgotado!</strong> As perguntas não respondidas foram contabilizadas como erradas.</p>
+                <p>Tempo utilizado: {{ tempoUtilizado | formatarSegundos }}</p>
+                <b-button type="is-info" @click="provaSelecionada = null">
+                  Escolher outro ebook
+                </b-button>
+                <b-button type="is-primary" @click="provaSelecionada = provaSelecionada">
+                  Refazer este ebook
+                </b-button>
+              </div>
+            </div>
+
+            <div class="content article-body" v-for="(pergunta, i) in perguntasSelecionadas" :key="i">
+              <hr />
+              <p>
+                <b-taglist attached>
+                  <b-tag type="is-dark">Pergunta</b-tag>
+                  <b-tag type="is-primary">{{ pergunta.numero }}</b-tag>
+                </b-taglist>
+                {{ pergunta.enunciado }}
+              </p>
+              <div class="field" v-for="(alternativa, j) in pergunta.alternativas" :key="j">
+                <p :class="{'has-background-success': alternativa.correta, 'has-background-danger': !alternativa.correta && j == pergunta.alternativaEscolhida}">
+                  <b-icon pack="far" icon="times-circle" v-if="j == pergunta.alternativaEscolhida && !alternativa.correta"></b-icon>
+                  <b-icon pack="far" icon="check-circle" v-else-if="alternativa.correta"></b-icon>
+                  <b-icon pack="far" icon="circle" v-else></b-icon>
+                  {{ alternativa.texto }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content" v-else>
+            <div class="media">
+              <div class="media-content has-text-centered">
+                <p class="title article-title" style="color:#10172a !important;">{{ provaSelecionada.titulo }}</p>
+                <b-progress type="is-primary" :value="porcentagemProgresso" show-value>
+                  {{ indicePerguntaAtual + 1 }} de {{ totalPerguntas }}
+                </b-progress>
+                <p :class="{'has-text-danger has-text-weight-bold': cronometro <= 60}">
+                  <b-icon pack="far" icon="clock"></b-icon>
+                  Tempo restante: {{ cronometro | formatarSegundos }}
+                </p>
+              </div>
+            </div>
+
+            <div class="content article-body" v-if="perguntaAtual">
+              <b-taglist attached>
+                <b-tag type="is-dark">Pergunta</b-tag>
+                <b-tag type="is-primary">{{ perguntaAtual.numero }}</b-tag>
+              </b-taglist>
+              <h4>{{ perguntaAtual.enunciado }}</h4>
+              <div class="field" v-for="(alternativa, i) in perguntaAtual.alternativas" :key="i">
+                <b-radio v-model="alternativaEscolhida" :native-value="i">{{ alternativa.texto }}</b-radio>
+              </div>
+              <div class="buttons">
+                <b-button type="is-primary" @click="avancar">Avançar</b-button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    Simulado ADS &middot; material de apoio para estudos &middot; baseado nos ebooks do curso
+  </footer>
+
+</div>
+
+<div class="loading-overlay is-active is-full-page"><div class="loading-background" style="background:white"></div> <div class="loading-icon"></div></div>
+
+<script src="https://unpkg.com/vue@2"></script>
+<script src="https://unpkg.com/buefy@0.9"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+<script>
+if (!self.fetch) {
+  alert('Navegador incompatível com esse site.')
+}
+
+new Vue({
+  el: '#app',
+  data: {
+    carregando: false,
+    quantidadePerguntas: 10,
+    tempoLimiteSegundos: 15 * 60, // 15 minutos para 10 perguntas
+    tempoEsgotado: false,
+    // Lista plana de provas (cada ebook = uma entrada).
+    // Para adicionar um novo ebook, basta incluir um novo item aqui
+    // apontando para o respectivo arquivo JSON de questões.
+    provas: [
+      {
+        titulo: "Algoritmo e Lógica de Programação - Ebook 1",
+        materia: "Algoritmo e Lógica de Programação",
+        arquivo: "materias/algoritmo-logica/ebook1.json"
+      },
+      {
+        titulo: "Engenharia de Software: Análise de Requisitos - Ebook 1",
+        materia: "Engenharia de Software",
+        arquivo: "materias/engenharia-software-requisitos/ebook1.json"
+      }
+    ],
+    provaSelecionada: null,
+    perguntas: [],
+    perguntasSelecionadas: [],
+    indicePerguntaAtual: null,
+    alternativaEscolhida: null,
+    cronometro: 0,
+    temporizadorCronometro: null
+  },
+  mounted() {
+    document.querySelector('.loading-overlay').classList.remove("is-active")
+  },
+  watch: {
+    'provaSelecionada': async function(valor) {
+      if (valor) {
+        await this.carregarPerguntas()
+        this.selecionarPerguntas()
+        this.indicePerguntaAtual = 0
+        this.alternativaEscolhida = null
+        this.tempoEsgotado = false
+        this.iniciarCronometro()
+        this.carregando = true
+      }
+    }
+  },
+  methods: {
+    avancar() {
+      if (_.isNull(this.alternativaEscolhida)) {
+        this.$buefy.dialog.alert({
+          message: 'Escolha uma das alternativas para continuar',
+          type: 'is-danger',
+          hasIcon: true,
+          icon: 'times-circle',
+          iconPack: 'fa',
+          ariaRole: 'alertdialog',
+          ariaModal: true
+        })
+        return
+      }
+      this.perguntasSelecionadas[this.indicePerguntaAtual].alternativaEscolhida = this.alternativaEscolhida
+      this.indicePerguntaAtual++
+      this.alternativaEscolhida = null
+    },
+    async carregarPerguntas() {
+      var resposta = await fetch(this.provaSelecionada.arquivo)
+      var resultado = await resposta.json()
+      this.perguntas = resultado
+    },
+    selecionarPerguntas() {
+      this.perguntasSelecionadas = _(this.perguntas).filter({ anulada: false }).shuffle().slice(0, this.quantidadePerguntas).forEach(function(pergunta) {
+        if (pergunta.embaralhar_alternativas) {
+          pergunta.alternativas = _.shuffle(pergunta.alternativas)
+        }
+      })
+    },
+    iniciarCronometro() {
+      this.cronometro = this.tempoLimiteSegundos
+      this.temporizadorCronometro = setInterval(this.atualizarCronometro, 1000)
+    },
+    atualizarCronometro() {
+      if (this.terminou) {
+        clearInterval(this.temporizadorCronometro)
+      } else if (this.cronometro <= 0) {
+        this.tempoEsgotado = true
+        clearInterval(this.temporizadorCronometro)
+      } else {
+        this.cronometro--
+      }
+    }
+  },
+  computed: {
+    perguntaAtual() {
+      return this.perguntasSelecionadas[this.indicePerguntaAtual]
+    },
+    terminou() {
+      return this.indicePerguntaAtual === this.totalPerguntas || this.tempoEsgotado
+    },
+    totalAcertos() {
+      return _.reduce(this.perguntasSelecionadas, function(acertos, pergunta) {
+        var alternativa = pergunta.alternativas[pergunta.alternativaEscolhida]
+        if (alternativa && alternativa.correta) {
+          return acertos + 1
+        } else {
+          return acertos
+        }
+      }, 0)
+    },
+    totalPerguntas() {
+      return this.perguntasSelecionadas.length
+    },
+    tempoUtilizado() {
+      return this.tempoLimiteSegundos - this.cronometro
+    },
+    porcentagemAcerto() {
+      return parseFloat(((this.totalAcertos / this.totalPerguntas) * 100).toFixed(2))
+    },
+    porcentagemProgresso() {
+      return parseFloat(((this.indicePerguntaAtual / this.totalPerguntas) * 100).toFixed(2))
+    }
+  },
+  filters: {
+    formatarSegundos(valor) {
+      var cronometro = parseInt(valor, 10)
+      var hora = Math.floor(cronometro / 3600)
+      var minuto = Math.floor((cronometro - (hora * 3600)) / 60)
+      var segundo = cronometro - (hora * 3600) - (minuto * 60)
+      if (hora < 10) { hora = '0' + hora }
+      if (minuto < 10) { minuto = '0' + minuto }
+      if (segundo < 10) { segundo = '0' + segundo }
+      return hora + ':' + minuto + ':' + segundo
+    }
+  }
+})
+</script>
+</body>
+</html>
