@@ -1,0 +1,392 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "A 4ª Revolução Industrial, também conhecida como Indústria 4.0, é caracterizada principalmente por:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "O aprimoramento das máquinas a vapor" },
+      { "correta": false, "texto": "A produção em massa e força hidráulica" },
+      { "correta": false, "texto": "O avanço da eletrônica e digitalização" },
+      { "correta": true, "texto": "O uso intensivo de tecnologias digitais para gerar novos produtos de maneira eficaz e rápida" },
+      { "correta": false, "texto": "A substituição total do trabalho humano por máquinas" }
+    ]
+  },
+  {
+    "numero": 2,
+    "enunciado": "De acordo com a teoria dos 3Vs de Big Data apresentada no material, quais são os três elementos fundamentais?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Valor, Veracidade e Visualização" },
+      { "correta": true, "texto": "Volume, Velocidade e Variedade" },
+      { "correta": false, "texto": "Vazão, Volatilidade e Validação" },
+      { "correta": false, "texto": "Versão, Vínculo e Verificação" },
+      { "correta": false, "texto": "Visão, Viabilidade e Vantagem" }
+    ]
+  },
+  {
+    "numero": 3,
+    "enunciado": "Qual tecnologia permite acessar arquivos e executar tarefas pela internet sem necessidade de instalação de programas ou armazenamento local de dados?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Internet das Coisas (IoT)" },
+      { "correta": false, "texto": "Realidade Aumentada" },
+      { "correta": true, "texto": "Computação em Nuvem" },
+      { "correta": false, "texto": "Big Data" },
+      { "correta": false, "texto": "Blockchain" }
+    ]
+  },
+  {
+    "numero": 4,
+    "enunciado": "Segundo o glossário do IEEE (1989), um requisito pode ser definido como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Um código-fonte já implementado no sistema" },
+      { "correta": true, "texto": "Uma condição ou capacidade necessária para um usuário resolver um problema ou alcançar um objetivo" },
+      { "correta": false, "texto": "Um teste de aceitação do cliente" },
+      { "correta": false, "texto": "Uma reunião entre desenvolvedores para definir prazos" },
+      { "correta": false, "texto": "Um diagrama de arquitetura do sistema" }
+    ]
+  },
+  {
+    "numero": 5,
+    "enunciado": "Segundo Frederick Brooks (1987), qual é a parte mais difícil ao se construir um sistema de software?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Escrever o código-fonte" },
+      { "correta": false, "texto": "Realizar os testes finais" },
+      { "correta": true, "texto": "Decidir precisamente o que construir, ou seja, estabelecer os requisitos técnicos detalhados" },
+      { "correta": false, "texto": "Implantar o sistema em produção" },
+      { "correta": false, "texto": "Treinar a equipe de desenvolvimento" }
+    ]
+  },
+  {
+    "numero": 6,
+    "enunciado": "Quais são as quatro etapas do ciclo de vida de um produto de software apresentadas no material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Planejamento, execução, monitoramento e encerramento" },
+      { "correta": true, "texto": "Concepção, desenvolvimento, manutenção e descontinuação" },
+      { "correta": false, "texto": "Elicitação, análise, projeto e testes" },
+      { "correta": false, "texto": "Análise, design, implementação e homologação" },
+      { "correta": false, "texto": "Requisitos, arquitetura, codificação e entrega" }
+    ]
+  },
+  {
+    "numero": 7,
+    "enunciado": "Um stakeholder, conforme definido por Sommerville (2011), pode ser entendido como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Apenas o desenvolvedor responsável pelo código" },
+      { "correta": true, "texto": "Qualquer grupo ou indivíduo que pode ser afetado pela obtenção dos objetivos de uma organização" },
+      { "correta": false, "texto": "Somente o cliente que paga pelo projeto" },
+      { "correta": false, "texto": "Um tipo específico de requisito não funcional" },
+      { "correta": false, "texto": "O gerente de projeto exclusivamente" }
+    ]
+  },
+  {
+    "numero": 8,
+    "enunciado": "Quais são as principais fases de um processo de software, segundo o material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Elicitação, brainstorming, storyboard e avaliação" },
+      { "correta": true, "texto": "Análise de requisitos, projeto, implementação, testes e manutenção" },
+      { "correta": false, "texto": "Concepção, prototipação, validação e entrega" },
+      { "correta": false, "texto": "Planejamento, execução e encerramento" },
+      { "correta": false, "texto": "Design, codificação e deploy" }
+    ]
+  },
+  {
+    "numero": 9,
+    "enunciado": "Os requisitos funcionais de um sistema têm como característica principal:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Descrever restrições de desempenho e portabilidade do sistema" },
+      { "correta": true, "texto": "Descrever o que o sistema deve fazer, como declarações de serviços que o sistema deve fornecer" },
+      { "correta": false, "texto": "Definir apenas o orçamento do projeto" },
+      { "correta": false, "texto": "Especificar exclusivamente questões de segurança" },
+      { "correta": false, "texto": "Tratar apenas da estética da interface" }
+    ]
+  },
+  {
+    "numero": 10,
+    "enunciado": "Os requisitos não funcionais estão relacionados a quais características do sistema, segundo Pressman (2007)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": true, "texto": "Características emergentes, como tempo de resposta, confiabilidade e portabilidade" },
+      { "correta": false, "texto": "Apenas as funcionalidades específicas oferecidas ao usuário" },
+      { "correta": false, "texto": "O código-fonte e sua documentação" },
+      { "correta": false, "texto": "Somente o cronograma de entregas do projeto" },
+      { "correta": false, "texto": "As telas de cadastro do sistema" }
+    ]
+  },
+  {
+    "numero": 11,
+    "enunciado": "Na distinção entre requisitos de usuário e requisitos de sistema apresentada no material, é correto afirmar que:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Requisitos de sistema são mais gerais que requisitos de usuário" },
+      { "correta": true, "texto": "Um requisito de usuário pode ser expandido em diversos requisitos de sistema, sendo estes mais específicos" },
+      { "correta": false, "texto": "Requisitos de usuário e de sistema são sempre idênticos" },
+      { "correta": false, "texto": "Requisitos de sistema são elaborados apenas pelo cliente" },
+      { "correta": false, "texto": "Requisitos de usuário não podem ser documentados" }
+    ]
+  },
+  {
+    "numero": 12,
+    "enunciado": "Qual técnica de levantamento de requisitos utiliza um conjunto predefinido de perguntas que devem ser respondidas pelo cliente?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Entrevista aberta" },
+      { "correta": true, "texto": "Entrevista fechada" },
+      { "correta": false, "texto": "Brainstorming" },
+      { "correta": false, "texto": "Cenário" },
+      { "correta": false, "texto": "Caso de uso" }
+    ]
+  },
+  {
+    "numero": 13,
+    "enunciado": "O documento de requisitos de sistema, também chamado de SRS, tem como sigla em inglês:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "System Requirements Summary" },
+      { "correta": true, "texto": "Software Requirements Specification" },
+      { "correta": false, "texto": "Standard Requirements Sheet" },
+      { "correta": false, "texto": "Software Review Statement" },
+      { "correta": false, "texto": "System Review Specification" }
+    ]
+  },
+  {
+    "numero": 14,
+    "enunciado": "Na Unified Modeling Language (UML), qual diagrama relata as informações dos atores (usuários do sistema) e como ocorrem as interações com o sistema?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Diagrama de classes" },
+      { "correta": false, "texto": "Diagrama de sequência" },
+      { "correta": true, "texto": "Diagrama de caso de uso" },
+      { "correta": false, "texto": "Diagrama de atividades" },
+      { "correta": false, "texto": "Diagrama de componentes" }
+    ]
+  },
+  {
+    "numero": 15,
+    "enunciado": "O conceito de persona, introduzido por Alan Cooper em 1998, refere-se a:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Um tipo de requisito não funcional" },
+      { "correta": true, "texto": "Personagens fictícios que possuem certas características de um grupo de usuários, guiadas por dados coletados na elicitação de requisitos" },
+      { "correta": false, "texto": "Um membro real da equipe de desenvolvimento" },
+      { "correta": false, "texto": "Uma ferramenta de prototipação de alta fidelidade" },
+      { "correta": false, "texto": "Um diagrama de arquitetura de software" }
+    ]
+  },
+  {
+    "numero": 16,
+    "enunciado": "Segundo Sommerville (2011), a Análise de Requisitos consiste em quais etapas?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Codificação, testes, entrega e manutenção" },
+      { "correta": true, "texto": "Reconhecer o problema, avaliar o problema e sintetizar a solução, modelar, especificar os requisitos e revisar" },
+      { "correta": false, "texto": "Brainstorming, storyboard, prototipação e validação" },
+      { "correta": false, "texto": "Planejamento, execução, controle e encerramento" },
+      { "correta": false, "texto": "Elicitação, priorização, aprovação e arquivamento" }
+    ]
+  },
+  {
+    "numero": 17,
+    "enunciado": "Qual técnica de análise de requisitos consiste em reunir um grupo de envolvidos em um projeto para coletar ideias, sem descartar nenhuma delas durante o processo de coleta?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Entrevista fechada" },
+      { "correta": true, "texto": "Brainstorming" },
+      { "correta": false, "texto": "Caso de uso" },
+      { "correta": false, "texto": "Teste caixa branca" },
+      { "correta": false, "texto": "Revisão de código" }
+    ]
+  },
+  {
+    "numero": 18,
+    "enunciado": "O termo Brainstorming foi criado pelo publicitário Alex Osborn, nos Estados Unidos, com qual finalidade original?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Exclusivamente para o desenvolvimento de software" },
+      { "correta": true, "texto": "Avaliar e analisar a capacidade criativa individual ou de um grupo, em qualquer área que exija relações humanas" },
+      { "correta": false, "texto": "Apenas para definição de preços de produtos" },
+      { "correta": false, "texto": "Para substituir entrevistas com clientes" },
+      { "correta": false, "texto": "Para testes de usabilidade automatizados" }
+    ]
+  },
+  {
+    "numero": 19,
+    "enunciado": "De acordo com o quadro comparativo apresentado no material, qual é uma vantagem do protótipo de baixa fidelidade?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Funcionalidade completa e totalmente interativo" },
+      { "correta": true, "texto": "Custo mais baixo e identificação de requisitos" },
+      { "correta": false, "texto": "Define claramente o esquema de navegação" },
+      { "correta": false, "texto": "Uso acompanhado pelo usuário com alta fidelidade visual" },
+      { "correta": false, "texto": "Não serve para coleta de requisitos" }
+    ]
+  },
+  {
+    "numero": 20,
+    "enunciado": "Qual é uma desvantagem do protótipo de alta fidelidade, segundo o quadro comparativo apresentado no material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Verificação limitada de erros" },
+      { "correta": false, "texto": "Limitações de fluxo e navegação" },
+      { "correta": true, "texto": "Desenvolvimento consideravelmente caro e demanda mais tempo para criação" },
+      { "correta": false, "texto": "Custo muito baixo" },
+      { "correta": false, "texto": "Abordagem limitada de questões de layout" }
+    ]
+  },
+  {
+    "numero": 21,
+    "enunciado": "A técnica de storyboard, utilizada na análise de requisitos, tem como principal característica:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Substituir totalmente a documentação de requisitos" },
+      { "correta": true, "texto": "Descrever situações de uso através de quadros com imagens que ilustram cenas, atores e ações do domínio" },
+      { "correta": false, "texto": "Ser aplicada apenas em testes de caixa branca" },
+      { "correta": false, "texto": "Ser um tipo de requisito não funcional" },
+      { "correta": false, "texto": "Definir exclusivamente o orçamento do projeto" }
+    ]
+  },
+  {
+    "numero": 22,
+    "enunciado": "A usabilidade, no contexto da Interação Humano-Computador (IHC), refere-se a:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Apenas ao design gráfico das telas" },
+      { "correta": true, "texto": "À qualidade da interação proporcionada pela interface de um sistema computacional" },
+      { "correta": false, "texto": "Ao custo de desenvolvimento de um software" },
+      { "correta": false, "texto": "Ao tempo de resposta do servidor" },
+      { "correta": false, "texto": "Exclusivamente à segurança da aplicação" }
+    ]
+  },
+  {
+    "numero": 23,
+    "enunciado": "Na abordagem de Engenharia de Requisitos para aplicações de Realidade Aumentada apresentada na Unidade 4, quais são os participantes propostos na etapa de Elicitação dos Requisitos?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Apenas o cliente" },
+      { "correta": true, "texto": "O cliente, o engenheiro de requisitos e o analista de requisitos" },
+      { "correta": false, "texto": "Somente os desenvolvedores da aplicação" },
+      { "correta": false, "texto": "Exclusivamente a equipe de QA" },
+      { "correta": false, "texto": "O gerente de projeto e o designer de interface, apenas" }
+    ]
+  },
+  {
+    "numero": 24,
+    "enunciado": "Quais são as três características que uma aplicação de Realidade Aumentada deve ofertar, segundo o material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Ser gratuita, multiplataforma e offline" },
+      { "correta": true, "texto": "Combinar o real com o virtual, ser interativa em tempo real e registrar objetos virtuais em relação aos objetos reais" },
+      { "correta": false, "texto": "Utilizar apenas hardware de entrada" },
+      { "correta": false, "texto": "Funcionar exclusivamente em dispositivos móveis" },
+      { "correta": false, "texto": "Depender apenas de conexão via GPS" }
+    ]
+  },
+  {
+    "numero": 25,
+    "enunciado": "No processo de garantia de qualidade de software apresentado no material, qual é a principal diferença entre teste caixa branca e teste caixa preta?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Caixa branca é feito pelo cliente, caixa preta pelo desenvolvedor" },
+      { "correta": true, "texto": "Caixa branca é realizado com acesso ao código-fonte da funcionalidade, enquanto caixa preta é realizado sem esse acesso" },
+      { "correta": false, "texto": "Caixa branca só pode ser feito antes da implementação, caixa preta depois" },
+      { "correta": false, "texto": "Não há diferença prática entre os dois tipos de teste" },
+      { "correta": false, "texto": "Caixa preta exige acesso ao código-fonte, e caixa branca não" }
+    ]
+  },
+  {
+    "numero": 26,
+    "enunciado": "A área de qualidade de software pode ser dividida em dois grandes grupos, segundo o material. Quais são eles?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Qualidade de hardware e qualidade de rede" },
+      { "correta": true, "texto": "Qualidade de processos e qualidade de produtos" },
+      { "correta": false, "texto": "Qualidade de código e qualidade de documentação" },
+      { "correta": false, "texto": "Qualidade de design e qualidade de negócio" },
+      { "correta": false, "texto": "Qualidade interna e qualidade externa apenas" }
+    ]
+  },
+  {
+    "numero": 27,
+    "enunciado": "Um plano de teste, conforme descrito no material, pode ser definido como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Um documento estático que nunca é atualizado durante o projeto" },
+      { "correta": true, "texto": "Um documento detalhado que cataloga a estratégia, os objetivos, o cronograma, as estimativas e os recursos necessários para os testes" },
+      { "correta": false, "texto": "Um relatório final entregue apenas após a conclusão do projeto" },
+      { "correta": false, "texto": "Um tipo específico de requisito funcional" },
+      { "correta": false, "texto": "Um diagrama de caso de uso" }
+    ]
+  },
+  {
+    "numero": 28,
+    "enunciado": "Quais são exemplos de modelos de maturidade utilizados para medir a aderência de uma empresa aos processos de qualidade, segundo o material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "UML e SRS" },
+      { "correta": true, "texto": "CMMI e MPS.BR" },
+      { "correta": false, "texto": "IoT e Big Data" },
+      { "correta": false, "texto": "Scrum e Kanban" },
+      { "correta": false, "texto": "Axure e Figma" }
+    ]
+  },
+  {
+    "numero": 29,
+    "enunciado": "Segundo o material, o que caracteriza uma sprint no contexto do método ágil Scrum?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Um teste de caixa branca realizado ao final do projeto" },
+      { "correta": true, "texto": "Um ciclo de desenvolvimento com duração média de duas a quatro semanas, com o intuito de entregar um artefato" },
+      { "correta": false, "texto": "Uma reunião única realizada no início do projeto" },
+      { "correta": false, "texto": "Um tipo de requisito não funcional" },
+      { "correta": false, "texto": "Um documento de especificação de requisitos" }
+    ]
+  },
+  {
+    "numero": 30,
+    "enunciado": "A classificação de prioridade dos requisitos, mencionada no material, pode ser feita, entre outras formas, como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Apenas como aprovado ou reprovado" },
+      { "correta": true, "texto": "Essencial, importante e desejável" },
+      { "correta": false, "texto": "Caixa branca ou caixa preta" },
+      { "correta": false, "texto": "Funcional ou visual" },
+      { "correta": false, "texto": "Interno ou externo apenas" }
+    ]
+  }
+]
