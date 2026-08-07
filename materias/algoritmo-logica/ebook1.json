@@ -1,0 +1,1794 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Na Grécia Antiga, qual filósofo se dedicou a estudar e formalizar o modo de pensamento lógico, dando origem à área de estudos da Filosofia chamada Lógica?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Platão"
+      },
+      {
+        "correta": true,
+        "texto": "Aristóteles"
+      },
+      {
+        "correta": false,
+        "texto": "Sócrates"
+      },
+      {
+        "correta": false,
+        "texto": "Pitágoras"
+      },
+      {
+        "correta": false,
+        "texto": "Euclides"
+      }
+    ]
+  },
+  {
+    "numero": 2,
+    "enunciado": "No processo de resolução lógica de problemas, qual método conduz a uma conclusão a partir da repetição de um padrão de comportamento observado, mas que pode levar a generalizações incorretas?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Método dedutivo"
+      },
+      {
+        "correta": true,
+        "texto": "Método indutivo"
+      },
+      {
+        "correta": false,
+        "texto": "Método comparativo"
+      },
+      {
+        "correta": false,
+        "texto": "Método sequencial"
+      },
+      {
+        "correta": false,
+        "texto": "Método declarativo"
+      }
+    ]
+  },
+  {
+    "numero": 3,
+    "enunciado": "No método dedutivo, como é obtida a conclusão de um problema?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Pela repetição de um padrão observado ao longo do tempo"
+      },
+      {
+        "correta": true,
+        "texto": "A partir de uma sequência ordenada de premissas válidas, de causa e efeito"
+      },
+      {
+        "correta": false,
+        "texto": "Por meio de uma opinião subjetiva do observador"
+      },
+      {
+        "correta": false,
+        "texto": "Por tentativa e erro, sem uso de premissas"
+      },
+      {
+        "correta": false,
+        "texto": "Pela análise estatística de grandes volumes de dados"
+      }
+    ]
+  },
+  {
+    "numero": 4,
+    "enunciado": "O operador lógico de implicação (A→B) somente resulta em FALSO em qual situação?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Quando A é falso e B é falso"
+      },
+      {
+        "correta": false,
+        "texto": "Quando A é falso e B é verdadeiro"
+      },
+      {
+        "correta": true,
+        "texto": "Quando A é verdadeiro e B é falso"
+      },
+      {
+        "correta": false,
+        "texto": "Quando A é verdadeiro e B é verdadeiro"
+      },
+      {
+        "correta": false,
+        "texto": "O operador de implicação nunca resulta em falso"
+      }
+    ]
+  },
+  {
+    "numero": 5,
+    "enunciado": "Considerando o operador lógico OU (A + B), em qual situação o resultado é FALSO?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Quando A é verdadeiro e B é falso"
+      },
+      {
+        "correta": false,
+        "texto": "Quando A é falso e B é verdadeiro"
+      },
+      {
+        "correta": true,
+        "texto": "Quando A é falso e B é falso"
+      },
+      {
+        "correta": false,
+        "texto": "Quando A e B são ambos verdadeiros"
+      },
+      {
+        "correta": false,
+        "texto": "O operador OU nunca resulta em falso"
+      }
+    ]
+  },
+  {
+    "numero": 6,
+    "enunciado": "O operador lógico E (A.B) somente é verdadeiro em qual condição?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Quando ao menos um dos dois, A ou B, é verdadeiro"
+      },
+      {
+        "correta": true,
+        "texto": "Quando A é verdadeiro e B é verdadeiro"
+      },
+      {
+        "correta": false,
+        "texto": "Quando A é falso e B é verdadeiro"
+      },
+      {
+        "correta": false,
+        "texto": "Quando A e B são ambos falsos"
+      },
+      {
+        "correta": false,
+        "texto": "O operador E é sempre verdadeiro"
+      }
+    ]
+  },
+  {
+    "numero": 7,
+    "enunciado": "O operador de negação (~A) tem qual função em uma premissa lógica?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Somar duas condições distintas"
+      },
+      {
+        "correta": false,
+        "texto": "Comparar a igualdade entre dois elementos"
+      },
+      {
+        "correta": true,
+        "texto": "Inverter o estado lógico do elemento da premissa"
+      },
+      {
+        "correta": false,
+        "texto": "Multiplicar o valor lógico por -1"
+      },
+      {
+        "correta": false,
+        "texto": "Repetir a condição enquanto ela for verdadeira"
+      }
+    ]
+  },
+  {
+    "numero": 8,
+    "enunciado": "De acordo com Cormen et al. (2012), o que é um algoritmo?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Um programa já compilado e pronto para execução"
+      },
+      {
+        "correta": false,
+        "texto": "Um conjunto de premissas filosóficas sobre a natureza"
+      },
+      {
+        "correta": true,
+        "texto": "Uma sequência de instruções, escritas de forma clara, ordenada e finita, para realizar uma tarefa ou resolver um problema"
+      },
+      {
+        "correta": false,
+        "texto": "Uma linguagem de programação específica"
+      },
+      {
+        "correta": false,
+        "texto": "Um teste de hipóteses estatísticas"
+      }
+    ]
+  },
+  {
+    "numero": 9,
+    "enunciado": "No processo de criação de algoritmos, como é chamado o teste realizado ao final, em que se executa passo a passo cada instrução para verificar se a tarefa foi concluída com êxito?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Teste de unidade"
+      },
+      {
+        "correta": true,
+        "texto": "Teste de mesa"
+      },
+      {
+        "correta": false,
+        "texto": "Teste de estresse"
+      },
+      {
+        "correta": false,
+        "texto": "Teste de regressão"
+      },
+      {
+        "correta": false,
+        "texto": "Teste de integração"
+      }
+    ]
+  },
+  {
+    "numero": 10,
+    "enunciado": "Quem criou a linguagem de programação Python, em 1991?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Dennis Ritchie"
+      },
+      {
+        "correta": false,
+        "texto": "James Gosling"
+      },
+      {
+        "correta": false,
+        "texto": "Bjarne Stroustrup"
+      },
+      {
+        "correta": true,
+        "texto": "Guido van Rossum"
+      },
+      {
+        "correta": false,
+        "texto": "Linus Torvalds"
+      }
+    ]
+  },
+  {
+    "numero": 11,
+    "enunciado": "Qual característica da linguagem Python indica que ela não é compilada diretamente para o computador, sendo executada em um ambiente instalado na máquina que interpreta o código no momento da execução?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Linguagem multiparadigma"
+      },
+      {
+        "correta": true,
+        "texto": "Linguagem interpretada"
+      },
+      {
+        "correta": false,
+        "texto": "Linguagem de baixo nível"
+      },
+      {
+        "correta": false,
+        "texto": "Linguagem fortemente tipada"
+      },
+      {
+        "correta": false,
+        "texto": "Linguagem orientada a objetos pura"
+      }
+    ]
+  },
+  {
+    "numero": 12,
+    "enunciado": "O fato de Python aceitar tanto programação procedural quanto programação orientada a objetos caracteriza-a como uma linguagem:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Interpretada"
+      },
+      {
+        "correta": false,
+        "texto": "Script"
+      },
+      {
+        "correta": true,
+        "texto": "Multiparadigma"
+      },
+      {
+        "correta": false,
+        "texto": "Compilada"
+      },
+      {
+        "correta": false,
+        "texto": "Portável"
+      }
+    ]
+  },
+  {
+    "numero": 13,
+    "enunciado": "Em Python, qual comando é utilizado para receber uma entrada de dados digitada pelo usuário via teclado?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "print()"
+      },
+      {
+        "correta": true,
+        "texto": "input()"
+      },
+      {
+        "correta": false,
+        "texto": "read()"
+      },
+      {
+        "correta": false,
+        "texto": "scan()"
+      },
+      {
+        "correta": false,
+        "texto": "get()"
+      }
+    ]
+  },
+  {
+    "numero": 14,
+    "enunciado": "Sobre a declaração de variáveis em Python, é correto afirmar que:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "É necessário declarar explicitamente o tipo da variável antes de atribuir um valor"
+      },
+      {
+        "correta": false,
+        "texto": "Variáveis podem começar com números"
+      },
+      {
+        "correta": false,
+        "texto": "Variáveis podem conter espaços em seus nomes"
+      },
+      {
+        "correta": true,
+        "texto": "As variáveis são case sensitive, ou seja, nomes iguais escritos em maiúsculas ou minúsculas são reconhecidos como diferentes"
+      },
+      {
+        "correta": false,
+        "texto": "Toda variável precisa ser declarada dentro de um módulo separado"
+      }
+    ]
+  },
+  {
+    "numero": 15,
+    "enunciado": "No ambiente Python, qual é o símbolo utilizado para marcar o início de um comentário no código, ou seja, um texto que não é processado pela máquina?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "//"
+      },
+      {
+        "correta": false,
+        "texto": "--"
+      },
+      {
+        "correta": true,
+        "texto": "#"
+      },
+      {
+        "correta": false,
+        "texto": "/* */"
+      },
+      {
+        "correta": false,
+        "texto": "<!-- -->"
+      }
+    ]
+  },
+  {
+    "numero": 16,
+    "enunciado": "Qual comando em Python é utilizado para exibir mensagens e resultados na tela durante ou após o processamento?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "input()"
+      },
+      {
+        "correta": false,
+        "texto": "show()"
+      },
+      {
+        "correta": true,
+        "texto": "print()"
+      },
+      {
+        "correta": false,
+        "texto": "display()"
+      },
+      {
+        "correta": false,
+        "texto": "output()"
+      }
+    ]
+  },
+  {
+    "numero": 17,
+    "enunciado": "O 3º passo na sequência geral de resolução de um desafio lógico, segundo o material, consiste em:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Enunciar o problema"
+      },
+      {
+        "correta": false,
+        "texto": "Descrever todas as partes constituintes do problema"
+      },
+      {
+        "correta": true,
+        "texto": "Ordenação lógica das premissas"
+      },
+      {
+        "correta": false,
+        "texto": "Avaliação conclusiva"
+      },
+      {
+        "correta": false,
+        "texto": "Codificação do algoritmo"
+      }
+    ]
+  },
+  {
+    "numero": 18,
+    "enunciado": "Segundo o material, quais são os principais componentes de um computador responsáveis por armazenar e recuperar valores, executar aritmética básica e lógica?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Disco rígido e mouse"
+      },
+      {
+        "correta": true,
+        "texto": "CPU (unidade de processamento central)"
+      },
+      {
+        "correta": false,
+        "texto": "Tela e teclado"
+      },
+      {
+        "correta": false,
+        "texto": "Placa de vídeo"
+      },
+      {
+        "correta": false,
+        "texto": "Fonte de alimentação"
+      }
+    ]
+  },
+  {
+    "numero": 19,
+    "enunciado": "O sistema numérico utilizado internamente pelos computadores digitais, que opera com apenas dois algarismos (0 e 1), é denominado:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Sistema decimal"
+      },
+      {
+        "correta": false,
+        "texto": "Sistema hexadecimal"
+      },
+      {
+        "correta": true,
+        "texto": "Sistema binário"
+      },
+      {
+        "correta": false,
+        "texto": "Sistema octal"
+      },
+      {
+        "correta": false,
+        "texto": "Sistema decimal codificado"
+      }
+    ]
+  },
+  {
+    "numero": 20,
+    "enunciado": "Qual é o nome dado à menor unidade de armazenamento de informação em um computador, que pode memorizar apenas um entre dois valores (zero ou um)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Byte"
+      },
+      {
+        "correta": true,
+        "texto": "Bit"
+      },
+      {
+        "correta": false,
+        "texto": "Word"
+      },
+      {
+        "correta": false,
+        "texto": "Nibble"
+      },
+      {
+        "correta": false,
+        "texto": "Char"
+      }
+    ]
+  },
+  {
+    "numero": 21,
+    "enunciado": "Qual código de representação de caracteres utiliza 7 bits por caractere e é amplamente utilizado por microcomputadores?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "UNICODE"
+      },
+      {
+        "correta": false,
+        "texto": "EBCDIC"
+      },
+      {
+        "correta": true,
+        "texto": "ASCII"
+      },
+      {
+        "correta": false,
+        "texto": "UTF-16"
+      },
+      {
+        "correta": false,
+        "texto": "Base64"
+      }
+    ]
+  },
+  {
+    "numero": 22,
+    "enunciado": "O código UNICODE tem como principal característica:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Utilizar apenas 7 bits por caractere"
+      },
+      {
+        "correta": false,
+        "texto": "Ser restrito somente ao alfabeto latino"
+      },
+      {
+        "correta": true,
+        "texto": "Oportunizar que os computadores representem textos de forma consistente em variados sistemas de escrita, abrangendo mais de 100.000 caracteres"
+      },
+      {
+        "correta": false,
+        "texto": "Ser utilizado exclusivamente para representar números"
+      },
+      {
+        "correta": false,
+        "texto": "Não utilizar bytes para representação"
+      }
+    ]
+  },
+  {
+    "numero": 23,
+    "enunciado": "As constantes, ao serem declaradas em um módulo na linguagem Python, devem seguir qual convenção de escrita, segundo o material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Devem ser escritas em letras minúsculas, sem separação"
+      },
+      {
+        "correta": true,
+        "texto": "Devem ser escritas em letras maiúsculas, separando as palavras com sublinhado"
+      },
+      {
+        "correta": false,
+        "texto": "Devem começar sempre com um número"
+      },
+      {
+        "correta": false,
+        "texto": "Devem conter espaços entre as palavras"
+      },
+      {
+        "correta": false,
+        "texto": "Devem ser escritas com a primeira letra maiúscula e o restante minúsculo"
+      }
+    ]
+  },
+  {
+    "numero": 24,
+    "enunciado": "Segundo Kalb (2016), uma variável pode ser definida como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Um valor que nunca pode ser alterado durante a execução do programa"
+      },
+      {
+        "correta": true,
+        "texto": "Uma localização de memória nomeada que possui um determinado valor, o qual pode variar ao longo do tempo"
+      },
+      {
+        "correta": false,
+        "texto": "Um comando exclusivo para entrada de dados"
+      },
+      {
+        "correta": false,
+        "texto": "Um tipo de função matemática"
+      },
+      {
+        "correta": false,
+        "texto": "Um bloco de comentários no código"
+      }
+    ]
+  },
+  {
+    "numero": 25,
+    "enunciado": "De acordo com as boas práticas para nomeação de variáveis em Python apresentadas no material, é correto afirmar que o nome de uma variável:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Pode começar com um dígito"
+      },
+      {
+        "correta": false,
+        "texto": "Pode conter espaços"
+      },
+      {
+        "correta": true,
+        "texto": "Deve começar com uma letra ou sublinhado, sem espaços ou símbolos matemáticos"
+      },
+      {
+        "correta": false,
+        "texto": "Deve conter obrigatoriamente símbolos como + ou -"
+      },
+      {
+        "correta": false,
+        "texto": "Não pode ultrapassar 5 caracteres"
+      }
+    ]
+  },
+  {
+    "numero": 26,
+    "enunciado": "Na expressão de atribuição em Python, `<variavel> = <expressao>`, o sinal de igual (=) representa:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Uma comparação de igualdade entre dois valores"
+      },
+      {
+        "correta": true,
+        "texto": "Um operador de atribuição, indicando que o resultado da direita é atribuído à variável da esquerda"
+      },
+      {
+        "correta": false,
+        "texto": "Uma operação de soma"
+      },
+      {
+        "correta": false,
+        "texto": "Um comentário no código"
+      },
+      {
+        "correta": false,
+        "texto": "Uma estrutura de repetição"
+      }
+    ]
+  },
+  {
+    "numero": 27,
+    "enunciado": "Qual tipo de dado em Python assume apenas os valores True (verdadeiro) ou False (falso)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "int"
+      },
+      {
+        "correta": false,
+        "texto": "float"
+      },
+      {
+        "correta": true,
+        "texto": "bool"
+      },
+      {
+        "correta": false,
+        "texto": "str"
+      },
+      {
+        "correta": false,
+        "texto": "complex"
+      }
+    ]
+  },
+  {
+    "numero": 28,
+    "enunciado": "Qual tipo de dado em Python é utilizado para representar números reais racionais, com codificação em ponto flutuante, usando o caractere \".\" para separar a parte inteira da decimal?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "int"
+      },
+      {
+        "correta": true,
+        "texto": "float"
+      },
+      {
+        "correta": false,
+        "texto": "bool"
+      },
+      {
+        "correta": false,
+        "texto": "str"
+      },
+      {
+        "correta": false,
+        "texto": "tuple"
+      }
+    ]
+  },
+  {
+    "numero": 29,
+    "enunciado": "Em Python, qual tipo de dado é utilizado para representar textos, sendo declarado a partir do uso de aspas simples ou duplas?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "int"
+      },
+      {
+        "correta": false,
+        "texto": "bool"
+      },
+      {
+        "correta": false,
+        "texto": "float"
+      },
+      {
+        "correta": true,
+        "texto": "str"
+      },
+      {
+        "correta": false,
+        "texto": "type"
+      }
+    ]
+  },
+  {
+    "numero": 30,
+    "enunciado": "Além do operador de atribuição simples (=), quais são as quatro operações aritméticas básicas representadas em Python pelos símbolos +, –, * e /?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Potenciação, módulo, divisão inteira e atribuição"
+      },
+      {
+        "correta": true,
+        "texto": "Soma, subtração, multiplicação e divisão"
+      },
+      {
+        "correta": false,
+        "texto": "Comparação, negação, conjunção e disjunção"
+      },
+      {
+        "correta": false,
+        "texto": "Concatenação, formatação, iteração e indexação"
+      },
+      {
+        "correta": false,
+        "texto": "Incremento, decremento, igualdade e diferença"
+      }
+    ]
+  },
+  {
+    "numero": 31,
+    "enunciado": "Qual operador em Python retorna o resto inteiro de uma divisão entre dois números, também conhecido como operador módulo?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "//"
+      },
+      {
+        "correta": true,
+        "texto": "%"
+      },
+      {
+        "correta": false,
+        "texto": "**"
+      },
+      {
+        "correta": false,
+        "texto": "/"
+      },
+      {
+        "correta": false,
+        "texto": "^"
+      }
+    ]
+  },
+  {
+    "numero": 32,
+    "enunciado": "Na avaliação de expressões aritméticas em Python, qual é a ordem correta de prioridade dos operadores, do primeiro ao último a ser avaliado?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Soma e subtração; depois multiplicação e divisão; depois potência, módulo e resto da divisão inteira"
+      },
+      {
+        "correta": true,
+        "texto": "Potência, módulo e resto da divisão inteira; depois multiplicação e divisão; depois soma e subtração"
+      },
+      {
+        "correta": false,
+        "texto": "Multiplicação e divisão; depois soma e subtração; depois potência, módulo e resto da divisão inteira"
+      },
+      {
+        "correta": false,
+        "texto": "Todos os operadores possuem a mesma prioridade em Python"
+      },
+      {
+        "correta": false,
+        "texto": "Módulo; depois soma e subtração; depois multiplicação e divisão; depois potência"
+      }
+    ]
+  },
+  {
+    "numero": 33,
+    "enunciado": "O operador de atribuição composto `auxiliar += 3` em Python tem o mesmo efeito funcional de qual expressão?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "auxiliar = 3"
+      },
+      {
+        "correta": true,
+        "texto": "auxiliar = auxiliar + 3"
+      },
+      {
+        "correta": false,
+        "texto": "auxiliar = auxiliar - 3"
+      },
+      {
+        "correta": false,
+        "texto": "auxiliar = auxiliar * 3"
+      },
+      {
+        "correta": false,
+        "texto": "auxiliar == 3"
+      }
+    ]
+  },
+  {
+    "numero": 34,
+    "enunciado": "Segundo o material, os dados numéricos em Python são classificados como objetos:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Mutáveis, podendo ser alterados diretamente na memória"
+      },
+      {
+        "correta": true,
+        "texto": "Imutáveis, não podendo ser modificados após serem criados"
+      },
+      {
+        "correta": false,
+        "texto": "Voláteis, perdendo o valor a cada nova linha de código"
+      },
+      {
+        "correta": false,
+        "texto": "Dinâmicos, mudando de tipo automaticamente a cada operação"
+      },
+      {
+        "correta": false,
+        "texto": "Temporários, existindo apenas durante o modo interativo"
+      }
+    ]
+  },
+  {
+    "numero": 35,
+    "enunciado": "Em Python, qual operador relacional é utilizado para verificar se dois valores são iguais dentro de uma condição lógica?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "="
+      },
+      {
+        "correta": true,
+        "texto": "=="
+      },
+      {
+        "correta": false,
+        "texto": "!="
+      },
+      {
+        "correta": false,
+        "texto": "<="
+      },
+      {
+        "correta": false,
+        "texto": "==="
+      }
+    ]
+  },
+  {
+    "numero": 36,
+    "enunciado": "Qual é a representação correta, em Python, do operador relacional \"diferente de\"?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "<>"
+      },
+      {
+        "correta": true,
+        "texto": "!="
+      },
+      {
+        "correta": false,
+        "texto": "~="
+      },
+      {
+        "correta": false,
+        "texto": "=/="
+      },
+      {
+        "correta": false,
+        "texto": "not=="
+      }
+    ]
+  },
+  {
+    "numero": 37,
+    "enunciado": "Como é representado, em código Python, o operador lógico \"E\", utilizado para conectar duas condições que devem ser ambas verdadeiras?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "or"
+      },
+      {
+        "correta": true,
+        "texto": "and"
+      },
+      {
+        "correta": false,
+        "texto": "not"
+      },
+      {
+        "correta": false,
+        "texto": "&&"
+      },
+      {
+        "correta": false,
+        "texto": "then"
+      }
+    ]
+  },
+  {
+    "numero": 38,
+    "enunciado": "Como é representado, em código Python, o operador lógico \"OU\"?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": true,
+        "texto": "or"
+      },
+      {
+        "correta": false,
+        "texto": "and"
+      },
+      {
+        "correta": false,
+        "texto": "not"
+      },
+      {
+        "correta": false,
+        "texto": "||"
+      },
+      {
+        "correta": false,
+        "texto": "either"
+      }
+    ]
+  },
+  {
+    "numero": 39,
+    "enunciado": "Como é representado, em código Python, o operador lógico de negação?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "!"
+      },
+      {
+        "correta": false,
+        "texto": "~"
+      },
+      {
+        "correta": true,
+        "texto": "not"
+      },
+      {
+        "correta": false,
+        "texto": "no"
+      },
+      {
+        "correta": false,
+        "texto": "negate"
+      }
+    ]
+  },
+  {
+    "numero": 40,
+    "enunciado": "Na estrutura condicional `if` simples em Python, o que ocorre quando a condição lógica avaliada é FALSA?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "O programa é interrompido imediatamente"
+      },
+      {
+        "correta": true,
+        "texto": "O bloco de comandos dentro do if é ignorado, e a execução segue para os comandos posteriores"
+      },
+      {
+        "correta": false,
+        "texto": "O bloco de comandos dentro do if é executado normalmente"
+      },
+      {
+        "correta": false,
+        "texto": "Ocorre um erro de sintaxe"
+      },
+      {
+        "correta": false,
+        "texto": "O programa retorna ao início do código"
+      }
+    ]
+  },
+  {
+    "numero": 41,
+    "enunciado": "Na estrutura condicional `if... else`, se a condição lógica for VERDADEIRA, qual bloco de comandos será executado?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Nenhum bloco será executado"
+      },
+      {
+        "correta": false,
+        "texto": "Somente o bloco do else"
+      },
+      {
+        "correta": true,
+        "texto": "Somente o bloco correspondente ao if"
+      },
+      {
+        "correta": false,
+        "texto": "Ambos os blocos, if e else, serão executados"
+      },
+      {
+        "correta": false,
+        "texto": "O programa aguarda nova entrada do usuário"
+      }
+    ]
+  },
+  {
+    "numero": 42,
+    "enunciado": "Qual estrutura condicional em Python permite o encadeamento de vários testes lógicos em cascata, sendo frequentemente usada em menus de opções para o usuário?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "if simples"
+      },
+      {
+        "correta": false,
+        "texto": "if... else"
+      },
+      {
+        "correta": true,
+        "texto": "if... elif... else"
+      },
+      {
+        "correta": false,
+        "texto": "while"
+      },
+      {
+        "correta": false,
+        "texto": "for"
+      }
+    ]
+  },
+  {
+    "numero": 43,
+    "enunciado": "Na estrutura `if... elif... else`, o que acontece caso NENHUMA das condições lógicas testadas seja verdadeira?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "O programa gera um erro de execução"
+      },
+      {
+        "correta": false,
+        "texto": "O primeiro bloco (if) é executado por padrão"
+      },
+      {
+        "correta": true,
+        "texto": "O bloco de comandos do else é executado"
+      },
+      {
+        "correta": false,
+        "texto": "Nenhuma instrução do programa é executada, incluindo as posteriores"
+      },
+      {
+        "correta": false,
+        "texto": "Todos os blocos elif são executados simultaneamente"
+      }
+    ]
+  },
+  {
+    "numero": 44,
+    "enunciado": "Em Python, o que define os blocos de comandos pertencentes a cada parte da instrução if?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "O uso obrigatório de chaves { }"
+      },
+      {
+        "correta": false,
+        "texto": "O uso de ponto e vírgula ao final de cada linha"
+      },
+      {
+        "correta": true,
+        "texto": "A tabulação e o alinhamento das instruções (indentação)"
+      },
+      {
+        "correta": false,
+        "texto": "O uso de parênteses envolvendo o bloco"
+      },
+      {
+        "correta": false,
+        "texto": "A ordem alfabética das variáveis"
+      }
+    ]
+  },
+  {
+    "numero": 45,
+    "enunciado": "Considere a condição lógica para permitir a entrada em um cinema: \"a idade mínima para entrada é 18 anos\". Qual é a representação correta dessa condição utilizando operador relacional?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "IDADE > 18"
+      },
+      {
+        "correta": true,
+        "texto": "IDADE >= 18"
+      },
+      {
+        "correta": false,
+        "texto": "IDADE == 18"
+      },
+      {
+        "correta": false,
+        "texto": "IDADE <= 18"
+      },
+      {
+        "correta": false,
+        "texto": "IDADE != 18"
+      }
+    ]
+  },
+  {
+    "numero": 46,
+    "enunciado": "Segundo o material, o que caracteriza a essência de qualquer processo de decisão, seja em lógica ou em programação?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Uma opinião pessoal do programador"
+      },
+      {
+        "correta": true,
+        "texto": "Uma comparação"
+      },
+      {
+        "correta": false,
+        "texto": "Uma repetição infinita"
+      },
+      {
+        "correta": false,
+        "texto": "Uma função matemática complexa"
+      },
+      {
+        "correta": false,
+        "texto": "Um cálculo estatístico"
+      }
+    ]
+  },
+  {
+    "numero": 47,
+    "enunciado": "Utilizando os operadores lógicos e relacionais, como pode ser representada a sentença \"toda autorização de pagamento deve ser assinada pelo presidente E pelo tesoureiro\"?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "(ASSINATURA PRESIDENTE = SIM) OR (ASSINATURA TESOUREIRO = SIM)"
+      },
+      {
+        "correta": true,
+        "texto": "(ASSINATURA PRESIDENTE = SIM) AND (ASSINATURA TESOUREIRO = SIM)"
+      },
+      {
+        "correta": false,
+        "texto": "NOT (ASSINATURA PRESIDENTE = SIM)"
+      },
+      {
+        "correta": false,
+        "texto": "(ASSINATURA PRESIDENTE = SIM) != (ASSINATURA TESOUREIRO = SIM)"
+      },
+      {
+        "correta": false,
+        "texto": "(ASSINATURA PRESIDENTE = NAO) AND (ASSINATURA TESOUREIRO = NAO)"
+      }
+    ]
+  },
+  {
+    "numero": 48,
+    "enunciado": "A tabela verdade do operador lógico OU (A ou B) somente resulta em FALSO quando:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "A é verdadeiro e B é falso"
+      },
+      {
+        "correta": false,
+        "texto": "A é falso e B é verdadeiro"
+      },
+      {
+        "correta": true,
+        "texto": "A é falso e B é falso"
+      },
+      {
+        "correta": false,
+        "texto": "A e B são ambos verdadeiros"
+      },
+      {
+        "correta": false,
+        "texto": "Nunca resulta em falso"
+      }
+    ]
+  },
+  {
+    "numero": 49,
+    "enunciado": "As formas de comparação em programação, segundo o material, podem ser classificadas em categorias. Qual das opções abaixo representa corretamente uma dessas categorias?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Sabor: doce ou salgado"
+      },
+      {
+        "correta": true,
+        "texto": "Dimensão: maior ou menor"
+      },
+      {
+        "correta": false,
+        "texto": "Cor: quente ou fria"
+      },
+      {
+        "correta": false,
+        "texto": "Textura: lisa ou áspera"
+      },
+      {
+        "correta": false,
+        "texto": "Temperatura: agradável ou desagradável"
+      }
+    ]
+  },
+  {
+    "numero": 50,
+    "enunciado": "O comando `for` em Python consiste em qual tipo de estrutura?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Estrutura condicional"
+      },
+      {
+        "correta": true,
+        "texto": "Estrutura de repetição baseada em uma variável do tipo lista"
+      },
+      {
+        "correta": false,
+        "texto": "Estrutura de entrada de dados"
+      },
+      {
+        "correta": false,
+        "texto": "Estrutura de definição de funções"
+      },
+      {
+        "correta": false,
+        "texto": "Estrutura de tratamento de exceções"
+      }
+    ]
+  },
+  {
+    "numero": 51,
+    "enunciado": "Quando não se tem uma lista previamente definida, mas se deseja usar o comando `for` para percorrer uma sequência numérica, qual comando é utilizado em conjunto?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "list()"
+      },
+      {
+        "correta": true,
+        "texto": "range()"
+      },
+      {
+        "correta": false,
+        "texto": "array()"
+      },
+      {
+        "correta": false,
+        "texto": "sequence()"
+      },
+      {
+        "correta": false,
+        "texto": "enumerate()"
+      }
+    ]
+  },
+  {
+    "numero": 52,
+    "enunciado": "A expressão `range(4, 8)` em Python gera uma lista numérica que:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Começa em 0 e vai até 8"
+      },
+      {
+        "correta": true,
+        "texto": "Se inicia em 4 e vai até o número 8 (exclusive)"
+      },
+      {
+        "correta": false,
+        "texto": "Contém apenas os números 4 e 8"
+      },
+      {
+        "correta": false,
+        "texto": "Começa em 8 e decresce até 4"
+      },
+      {
+        "correta": false,
+        "texto": "Gera 4 listas com 8 elementos cada"
+      }
+    ]
+  },
+  {
+    "numero": 53,
+    "enunciado": "Uma variável que é incrementada (some uma unidade) a cada interação de um comando for, sem considerar o valor da variável de iteração, é chamada de:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": true,
+        "texto": "Variável contadora"
+      },
+      {
+        "correta": false,
+        "texto": "Variável acumuladora"
+      },
+      {
+        "correta": false,
+        "texto": "Variável constante"
+      },
+      {
+        "correta": false,
+        "texto": "Variável global"
+      },
+      {
+        "correta": false,
+        "texto": "Variável booleana"
+      }
+    ]
+  },
+  {
+    "numero": 54,
+    "enunciado": "Uma variável que, a cada interação de um comando for, soma seu valor atual com o valor da variável de iteração do laço é chamada de:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Variável contadora"
+      },
+      {
+        "correta": true,
+        "texto": "Variável acumuladora"
+      },
+      {
+        "correta": false,
+        "texto": "Variável imutável"
+      },
+      {
+        "correta": false,
+        "texto": "Variável local"
+      },
+      {
+        "correta": false,
+        "texto": "Variável de referência"
+      }
+    ]
+  },
+  {
+    "numero": 55,
+    "enunciado": "O teste realizado durante a fase de desenvolvimento de um algoritmo, geralmente feito manualmente para cada interação do comando for, com o objetivo de acompanhar a evolução das variáveis, é conhecido como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Teste de unidade"
+      },
+      {
+        "correta": false,
+        "texto": "Teste de regressão"
+      },
+      {
+        "correta": true,
+        "texto": "Teste de mesa"
+      },
+      {
+        "correta": false,
+        "texto": "Teste de carga"
+      },
+      {
+        "correta": false,
+        "texto": "Teste de aceitação"
+      }
+    ]
+  },
+  {
+    "numero": 56,
+    "enunciado": "No cálculo do fatorial de um número utilizando o comando for em Python, qual operador de atribuição composto é comumente utilizado para multiplicar a variável fatorial por cada termo?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "+="
+      },
+      {
+        "correta": false,
+        "texto": "-="
+      },
+      {
+        "correta": true,
+        "texto": "*="
+      },
+      {
+        "correta": false,
+        "texto": "/="
+      },
+      {
+        "correta": false,
+        "texto": "%="
+      }
+    ]
+  },
+  {
+    "numero": 57,
+    "enunciado": "O fatorial de um número n (n!) é definido matematicamente como:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "A soma de todos os números de 0 até n"
+      },
+      {
+        "correta": true,
+        "texto": "O produto de todos os números decrescentes de n até 1"
+      },
+      {
+        "correta": false,
+        "texto": "A divisão de n por todos os números anteriores a ele"
+      },
+      {
+        "correta": false,
+        "texto": "O maior número divisor de n"
+      },
+      {
+        "correta": false,
+        "texto": "A média aritmética de n e seus antecessores"
+      }
+    ]
+  },
+  {
+    "numero": 58,
+    "enunciado": "Um número primo é definido como aquele que é divisível:",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Apenas por 2 e por si mesmo"
+      },
+      {
+        "correta": false,
+        "texto": "Por qualquer número par"
+      },
+      {
+        "correta": true,
+        "texto": "Apenas por 1 e por si mesmo"
+      },
+      {
+        "correta": false,
+        "texto": "Por todos os números menores que ele"
+      },
+      {
+        "correta": false,
+        "texto": "Somente por 1"
+      }
+    ]
+  },
+  {
+    "numero": 59,
+    "enunciado": "Para somar duas listas numéricas de igual dimensão elemento a elemento em Python, utilizando o comando for, qual variável auxiliar é comumente utilizada junto ao comando range para representar a posição de cada elemento?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "soma"
+      },
+      {
+        "correta": true,
+        "texto": "índice"
+      },
+      {
+        "correta": false,
+        "texto": "fatorial"
+      },
+      {
+        "correta": false,
+        "texto": "acumulador"
+      },
+      {
+        "correta": false,
+        "texto": "resultado"
+      }
+    ]
+  },
+  {
+    "numero": 60,
+    "enunciado": "No algoritmo que verifica se um número é primo, utilizando dois comandos for aninhados, qual é o critério final para considerar que o número analisado é primo?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "O número de divisores encontrados deve ser igual a 1"
+      },
+      {
+        "correta": true,
+        "texto": "O número de divisores encontrados (contados na variável contadora) deve ser igual a 2"
+      },
+      {
+        "correta": false,
+        "texto": "O número deve ser par"
+      },
+      {
+        "correta": false,
+        "texto": "O número deve ser maior que 20"
+      },
+      {
+        "correta": false,
+        "texto": "O número de divisores deve ser igual a 0"
+      }
+    ]
+  },
+  {
+    "numero": 61,
+    "enunciado": "Em um algoritmo que soma os números pares até 10 usando uma variável acumuladora chamada 'soma' dentro de um comando for, qual comando é utilizado para verificar se um número é par (divisível por 2)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "for"
+      },
+      {
+        "correta": true,
+        "texto": "if, verificando o resto da divisão por 2 com o operador %"
+      },
+      {
+        "correta": false,
+        "texto": "print"
+      },
+      {
+        "correta": false,
+        "texto": "input"
+      },
+      {
+        "correta": false,
+        "texto": "range, sem uso de condição"
+      }
+    ]
+  },
+  {
+    "numero": 62,
+    "enunciado": "Ao usar o comando for em uma variável do tipo string (texto), como o for percorre essa variável?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Percorrendo a string de trás para frente, obrigatoriamente"
+      },
+      {
+        "correta": true,
+        "texto": "Percorrendo cada caractere da string, um de cada vez, pois o texto é tratado como uma lista de caracteres"
+      },
+      {
+        "correta": false,
+        "texto": "O for não pode ser utilizado com variáveis do tipo string"
+      },
+      {
+        "correta": false,
+        "texto": "Percorrendo apenas a primeira e a última letra"
+      },
+      {
+        "correta": false,
+        "texto": "Convertendo automaticamente a string para número"
+      }
+    ]
+  },
+  {
+    "numero": 63,
+    "enunciado": "No teste de mesa de um algoritmo com uma variável contadora associada a um comando condicional if, qual cuidado especial deve ser tomado, segundo o material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Ignorar a condição do if durante o teste"
+      },
+      {
+        "correta": true,
+        "texto": "Analisar a condição com bastante atenção, pois o valor da variável contadora está diretamente associado a essa condição"
+      },
+      {
+        "correta": false,
+        "texto": "Alterar o valor da variável contadora manualmente a cada teste"
+      },
+      {
+        "correta": false,
+        "texto": "Executar o teste apenas na última interação do laço"
+      },
+      {
+        "correta": false,
+        "texto": "Utilizar somente números pares durante o teste"
+      }
+    ]
+  },
+  {
+    "numero": 64,
+    "enunciado": "Por que as variáveis contadoras e acumuladoras exigem a realização de testes de mesa, segundo o material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      {
+        "correta": false,
+        "texto": "Porque são tipos de dados exclusivos da linguagem Python"
+      },
+      {
+        "correta": false,
+        "texto": "Porque não podem ser utilizadas dentro de comandos for"
+      },
+      {
+        "correta": true,
+        "texto": "Porque, apesar de seu uso simples, podem promover vários erros no algoritmo se não forem verificadas corretamente"
+      },
+      {
+        "correta": false,
+        "texto": "Porque seus valores nunca mudam durante a execução"
+      },
+      {
+        "correta": false,
+        "texto": "Porque exigem sempre o uso do comando while"
+      }
+    ]
+  }
+]
