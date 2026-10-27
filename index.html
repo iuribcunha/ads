@@ -117,7 +117,7 @@
                 <b-button type="is-info" @click="provaSelecionada = null">
                   Escolher outro ebook
                 </b-button>
-                <b-button type="is-primary" @click="provaSelecionada = provaSelecionada">
+                <b-button type="is-primary" @click="iniciarTentativa">
                   Refazer este ebook
                 </b-button>
               </div>
@@ -214,6 +214,11 @@ new Vue({
         titulo: "Engenharia de Software: Análise de Requisitos - Ebook 1",
         materia: "Engenharia de Software",
         arquivo: "materias/engenharia-software-requisitos/ebook1.json"
+      },
+      {
+        titulo: "Arquitetura de Computadores e Hardware - Ebook 1",
+        materia: "Arquitetura de Computadores e Hardware",
+        arquivo: "materias/arquitetura-de-computadores-e-hardware/ebook1.json"
       }
     ],
     provaSelecionada: null,
@@ -231,12 +236,10 @@ new Vue({
     'provaSelecionada': async function(valor) {
       if (valor) {
         await this.carregarPerguntas()
-        this.selecionarPerguntas()
-        this.indicePerguntaAtual = 0
-        this.alternativaEscolhida = null
-        this.tempoEsgotado = false
-        this.iniciarCronometro()
-        this.carregando = true
+        this.iniciarTentativa()
+      } else if (this.temporizadorCronometro) {
+        clearInterval(this.temporizadorCronometro)
+        this.temporizadorCronometro = null
       }
     }
   },
@@ -264,11 +267,29 @@ new Vue({
       this.perguntas = resultado
     },
     selecionarPerguntas() {
-      this.perguntasSelecionadas = _(this.perguntas).filter({ anulada: false }).shuffle().slice(0, this.quantidadePerguntas).forEach(function(pergunta) {
-        if (pergunta.embaralhar_alternativas) {
-          pergunta.alternativas = _.shuffle(pergunta.alternativas)
+      var perguntasSelecionadas = _(this.perguntas)
+        .filter({ anulada: false })
+        .shuffle()
+        .take(this.quantidadePerguntas)
+        .value()
+
+      this.perguntasSelecionadas = _.map(perguntasSelecionadas, function(pergunta) {
+        var perguntaSelecionada = _.cloneDeep(pergunta)
+        if (perguntaSelecionada.embaralhar_alternativas) {
+          perguntaSelecionada.alternativas = _.shuffle(perguntaSelecionada.alternativas)
         }
+        return perguntaSelecionada
       })
+    },
+    iniciarTentativa() {
+      if (this.temporizadorCronometro) {
+        clearInterval(this.temporizadorCronometro)
+      }
+      this.selecionarPerguntas()
+      this.indicePerguntaAtual = 0
+      this.alternativaEscolhida = null
+      this.tempoEsgotado = false
+      this.iniciarCronometro()
     },
     iniciarCronometro() {
       this.cronometro = this.tempoLimiteSegundos

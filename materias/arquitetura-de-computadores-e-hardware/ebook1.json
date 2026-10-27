@@ -1,0 +1,522 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Qual inventor dedicou grande parte de sua vida ao projeto da Máquina Analítica, considerada um precursor do computador digital?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Alan Turing" },
+      { "correta": true, "texto": "Charles Babbage" },
+      { "correta": false, "texto": "John von Neumann" },
+      { "correta": false, "texto": "Herman Hollerith" },
+      { "correta": false, "texto": "Blaise Pascal" }
+    ]
+  },
+  {
+    "numero": 2,
+    "enunciado": "Qual computador, projetado por J. Presper Eckert e John Mauchly, é apresentado no material como o primeiro comercialmente aceito e bem-sucedido?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "ENIAC" },
+      { "correta": false, "texto": "Harvard Mark I" },
+      { "correta": false, "texto": "PDP-11" },
+      { "correta": true, "texto": "UNIVAC" },
+      { "correta": false, "texto": "IBM 360" }
+    ]
+  },
+  {
+    "numero": 3,
+    "enunciado": "Qual tecnologia marcou a segunda geração de computadores, tornando-os mais confiáveis e favorecendo sua produção em maior escala?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Válvulas termiônicas" },
+      { "correta": false, "texto": "Microprocessadores" },
+      { "correta": true, "texto": "Transistores" },
+      { "correta": false, "texto": "Memórias flash" },
+      { "correta": false, "texto": "Discos ópticos" }
+    ]
+  },
+  {
+    "numero": 4,
+    "enunciado": "Qual foi a principal inovação tecnológica associada à terceira geração de computadores descrita no ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "A substituição dos circuitos por engrenagens mecânicas" },
+      { "correta": true, "texto": "O uso de circuitos integrados com vários transistores em um único componente" },
+      { "correta": false, "texto": "A adoção de telas sensíveis ao toque" },
+      { "correta": false, "texto": "A criação da memória USB" },
+      { "correta": false, "texto": "A eliminação dos sistemas operacionais" }
+    ]
+  },
+  {
+    "numero": 5,
+    "enunciado": "Que avanço contribuiu para a popularização dos computadores pessoais ao permitir que o processamento fosse concentrado em um chip?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "A invenção do barramento ISA" },
+      { "correta": false, "texto": "A criação do disco óptico" },
+      { "correta": true, "texto": "O desenvolvimento do microprocessador" },
+      { "correta": false, "texto": "A substituição da memória RAM por ROM" },
+      { "correta": false, "texto": "A adoção do polling como unidade de processamento" }
+    ]
+  },
+  {
+    "numero": 6,
+    "enunciado": "No contexto de computadores, o que é hardware?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": true, "texto": "A parte física, formada pelos componentes e circuitos do computador" },
+      { "correta": false, "texto": "O conjunto de instruções de um programa" },
+      { "correta": false, "texto": "A interface gráfica do sistema operacional" },
+      { "correta": false, "texto": "Os dados armazenados exclusivamente na nuvem" },
+      { "correta": false, "texto": "A linguagem usada para escrever algoritmos" }
+    ]
+  },
+  {
+    "numero": 7,
+    "enunciado": "Qual é a função da placa-mãe (motherboard) descrita no ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Exibir imagens no monitor e processar gráficos" },
+      { "correta": false, "texto": "Armazenar permanentemente todos os arquivos do usuário" },
+      { "correta": false, "texto": "Converter programas em código-fonte" },
+      { "correta": false, "texto": "Executar exclusivamente operações aritméticas" },
+      { "correta": true, "texto": "Interligar os componentes do computador" }
+    ]
+  },
+  {
+    "numero": 8,
+    "enunciado": "De acordo com o material, qual software é executado primeiro ao ligar o computador e verifica os componentes de hardware?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "O editor de texto" },
+      { "correta": false, "texto": "O navegador de internet" },
+      { "correta": true, "texto": "O BIOS" },
+      { "correta": false, "texto": "O driver da impressora" },
+      { "correta": false, "texto": "O compilador" }
+    ]
+  },
+  {
+    "numero": 9,
+    "enunciado": "Qual sequência representa as três etapas básicas do processamento de dados apresentadas no ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Armazenamento, impressão e desligamento" },
+      { "correta": true, "texto": "Entrada de dados, processamento de dados e saída de dados" },
+      { "correta": false, "texto": "Codificação, compilação e depuração" },
+      { "correta": false, "texto": "Leitura, formatação e exclusão" },
+      { "correta": false, "texto": "Entrada de energia, inicialização e reinicialização" }
+    ]
+  },
+  {
+    "numero": 10,
+    "enunciado": "No fluxo de processamento, o que caracteriza a entrada de dados?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "A apresentação de informações já processadas ao usuário" },
+      { "correta": false, "texto": "A execução de operações aritméticas sobre os dados" },
+      { "correta": false, "texto": "A gravação de resultados em memória secundária" },
+      { "correta": true, "texto": "A coleta e o agrupamento de dados brutos, ainda não modificados" },
+      { "correta": false, "texto": "A conversão de dados em sinais de controle do processador" }
+    ]
+  },
+  {
+    "numero": 11,
+    "enunciado": "Qual é a finalidade da etapa de processamento de dados?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Reunir dados brutos sem realizar qualquer transformação" },
+      { "correta": false, "texto": "Enviar sinais elétricos somente aos dispositivos de saída" },
+      { "correta": true, "texto": "Transformar dados brutos em dados úteis ou desejados" },
+      { "correta": false, "texto": "Remover o sistema operacional da memória" },
+      { "correta": false, "texto": "Conectar fisicamente todos os periféricos" }
+    ]
+  },
+  {
+    "numero": 12,
+    "enunciado": "O que é um barramento em uma arquitetura de computadores?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Um programa que controla exclusivamente a memória RAM" },
+      { "correta": false, "texto": "Um dispositivo usado somente para exibir imagens" },
+      { "correta": false, "texto": "Um tipo de memória secundária removível" },
+      { "correta": false, "texto": "Um circuito que executa as instruções aritméticas" },
+      { "correta": true, "texto": "Um conjunto de linhas de transmissão que interliga dispositivos e transporta informações" }
+    ]
+  },
+  {
+    "numero": 13,
+    "enunciado": "Quais são as três funções de comunicação atribuídas aos barramentos no material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": true, "texto": "Comunicação de dados, de endereços e de controle" },
+      { "correta": false, "texto": "Comunicação de vídeo, de áudio e de energia" },
+      { "correta": false, "texto": "Leitura, escrita e formatação de arquivos" },
+      { "correta": false, "texto": "Entrada, compilação e execução de programas" },
+      { "correta": false, "texto": "Armazenamento, impressão e digitalização" }
+    ]
+  },
+  {
+    "numero": 14,
+    "enunciado": "O que a largura de um barramento indica, de acordo com o ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "A quantidade de programas instalados no computador" },
+      { "correta": true, "texto": "A quantidade de bits que o barramento pode transmitir em paralelo" },
+      { "correta": false, "texto": "A capacidade total do disco rígido" },
+      { "correta": false, "texto": "A frequência de atualização do monitor" },
+      { "correta": false, "texto": "O número de instruções armazenadas na ROM" }
+    ]
+  },
+  {
+    "numero": 15,
+    "enunciado": "Qual alternativa apresenta apenas exemplos de barramentos ou interfaces de entrada e saída citados no material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "RAM, ROM e cache" },
+      { "correta": false, "texto": "ULA, UC e registrador" },
+      { "correta": true, "texto": "USB, PCI-e e SCSI" },
+      { "correta": false, "texto": "BIOS, sistema operacional e driver" },
+      { "correta": false, "texto": "DIP, SIMM e DIMM" }
+    ]
+  },
+  {
+    "numero": 16,
+    "enunciado": "Qual é a função dos dispositivos de entrada?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Apresentar exclusivamente os resultados processados" },
+      { "correta": false, "texto": "Armazenar permanentemente o sistema operacional" },
+      { "correta": false, "texto": "Controlar a frequência do processador" },
+      { "correta": true, "texto": "Permitir que o usuário envie dados ou comandos para o computador" },
+      { "correta": false, "texto": "Substituir as funções da unidade de controle" }
+    ]
+  },
+  {
+    "numero": 17,
+    "enunciado": "Qual alternativa contém somente exemplos de dispositivos de saída mencionados no ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Teclado e mouse" },
+      { "correta": false, "texto": "Scanner e microfone" },
+      { "correta": false, "texto": "Mouse e impressora" },
+      { "correta": false, "texto": "Teclado e monitor" },
+      { "correta": true, "texto": "Monitor e impressora" }
+    ]
+  },
+  {
+    "numero": 18,
+    "enunciado": "O que caracteriza a técnica de polling na comunicação com dispositivos de entrada e saída?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "O dispositivo acessa diretamente a ULA para executar cálculos" },
+      { "correta": false, "texto": "A memória secundária envia dados à CPU sem barramento" },
+      { "correta": true, "texto": "O processador verifica periodicamente se o dispositivo precisa de atendimento" },
+      { "correta": false, "texto": "O sistema transfere dados apenas quando o computador é desligado" },
+      { "correta": false, "texto": "A unidade de controle desativa todos os periféricos" }
+    ]
+  },
+  {
+    "numero": 19,
+    "enunciado": "Qual é o objetivo do DMA (Acesso Direto à Memória)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Impedir que periféricos troquem informações com a memória" },
+      { "correta": true, "texto": "Transferir dados entre memória e periféricos sem exigir a intervenção contínua do processador" },
+      { "correta": false, "texto": "Executar todas as instruções no lugar da unidade lógica e aritmética" },
+      { "correta": false, "texto": "Transformar memória RAM em memória ROM" },
+      { "correta": false, "texto": "Aumentar a largura física do barramento de endereços" }
+    ]
+  },
+  {
+    "numero": 20,
+    "enunciado": "Como o material caracteriza uma interrupção no contexto de entrada e saída?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Uma operação que apaga o conteúdo da memória principal" },
+      { "correta": false, "texto": "Um ciclo de relógio usado para sincronizar a ULA" },
+      { "correta": false, "texto": "Uma transferência que sempre exige polling contínuo" },
+      { "correta": true, "texto": "Um sinal de hardware, geralmente externo, que modifica o fluxo de controle do processador" },
+      { "correta": false, "texto": "Um tipo de conexão usado exclusivamente em discos ópticos" }
+    ]
+  },
+  {
+    "numero": 21,
+    "enunciado": "Qual é a responsabilidade principal da Unidade Central de Processamento (CPU)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Armazenar todos os arquivos permanentemente" },
+      { "correta": false, "texto": "Converter sinais de vídeo em imagens impressas" },
+      { "correta": false, "texto": "Interligar fisicamente os componentes como uma placa-mãe" },
+      { "correta": false, "texto": "Fornecer energia elétrica aos periféricos" },
+      { "correta": true, "texto": "Executar instruções de software, incluindo operações aritméticas e lógicas" }
+    ]
+  },
+  {
+    "numero": 22,
+    "enunciado": "Que tipos de operações são realizadas pela Unidade Lógica e Aritmética (ULA)?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": true, "texto": "Operações aritméticas e lógicas" },
+      { "correta": false, "texto": "Somente operações de leitura de disco" },
+      { "correta": false, "texto": "Exclusivamente operações de entrada e saída" },
+      { "correta": false, "texto": "Apenas operações de inicialização do computador" },
+      { "correta": false, "texto": "Somente operações de gerenciamento de arquivos" }
+    ]
+  },
+  {
+    "numero": 23,
+    "enunciado": "Para que servem os bits especiais chamados flags, que podem ser ativados pela ULA?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Armazenar permanentemente programas na memória secundária" },
+      { "correta": false, "texto": "Definir a resolução do monitor" },
+      { "correta": true, "texto": "Indicar condições ou resultados obtidos em uma operação" },
+      { "correta": false, "texto": "Selecionar o tipo de teclado conectado" },
+      { "correta": false, "texto": "Substituir o contador de programa" }
+    ]
+  },
+  {
+    "numero": 24,
+    "enunciado": "Qual é a função da Unidade de Controle (UC) do processador?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Armazenar dados permanentemente em discos" },
+      { "correta": true, "texto": "Controlar a execução das instruções e comandar transferências de dados" },
+      { "correta": false, "texto": "Executar sozinha todas as operações aritméticas" },
+      { "correta": false, "texto": "Exibir os resultados diretamente no monitor" },
+      { "correta": false, "texto": "Substituir os barramentos de dados e endereços" }
+    ]
+  },
+  {
+    "numero": 25,
+    "enunciado": "Que informação o Program Counter (PC) mantém durante a execução de um programa?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "O resultado da última impressão" },
+      { "correta": false, "texto": "A quantidade de memória secundária disponível" },
+      { "correta": false, "texto": "O código da instrução atualmente decodificada" },
+      { "correta": true, "texto": "O endereço da próxima instrução a ser buscada" },
+      { "correta": false, "texto": "A soma dos valores armazenados nos registradores" }
+    ]
+  },
+  {
+    "numero": 26,
+    "enunciado": "Qual é o papel do Memory Address Register (MAR) no fluxo de busca de uma instrução?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": true, "texto": "Guardar o endereço da posição de memória que será acessada" },
+      { "correta": false, "texto": "Guardar permanentemente os resultados da ULA" },
+      { "correta": false, "texto": "Manter o código da operação de entrada e saída" },
+      { "correta": false, "texto": "Controlar a velocidade do barramento de dados" },
+      { "correta": false, "texto": "Armazenar a imagem exibida no monitor" }
+    ]
+  },
+  {
+    "numero": 27,
+    "enunciado": "Para que serve o Memory Buffer Register (MBR), também chamado de registrador temporário de dados?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Indicar o endereço da próxima instrução" },
+      { "correta": false, "texto": "Decodificar sozinho todas as instruções do programa" },
+      { "correta": false, "texto": "Sincronizar os ciclos do processador" },
+      { "correta": false, "texto": "Guardar os sinais de controle do monitor" },
+      { "correta": true, "texto": "Manter temporariamente dados que serão gravados na memória ou recebidos dela" }
+    ]
+  },
+  {
+    "numero": 28,
+    "enunciado": "Qual registrador contém o código da instrução corrente que será interpretada pelo processador?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "MAR (Memory Address Register)" },
+      { "correta": true, "texto": "IR (Instruction Register)" },
+      { "correta": false, "texto": "PC (Program Counter)" },
+      { "correta": false, "texto": "MBR (Memory Buffer Register)" },
+      { "correta": false, "texto": "AC (Accumulator)" }
+    ]
+  },
+  {
+    "numero": 29,
+    "enunciado": "Qual é a ordem geral das etapas do ciclo de execução de uma instrução descritas no material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Impressão, armazenamento, desligamento e inicialização" },
+      { "correta": false, "texto": "Codificação, compilação, instalação e formatação" },
+      { "correta": true, "texto": "Buscar a instrução, decodificá-la, buscar operandos, executar a operação e armazenar o resultado" },
+      { "correta": false, "texto": "Criar um arquivo, abrir o navegador e conectar à rede" },
+      { "correta": false, "texto": "Ler a memória secundária, desligar a CPU e reiniciar o sistema" }
+    ]
+  },
+  {
+    "numero": 30,
+    "enunciado": "Que função os registradores desempenham na hierarquia de memória do computador?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "São os componentes de maior capacidade e menor velocidade do sistema" },
+      { "correta": false, "texto": "Armazenam dados somente após o computador ser desligado" },
+      { "correta": false, "texto": "Substituem todos os dispositivos de armazenamento secundário" },
+      { "correta": false, "texto": "Ficam fora do processador e são acessados apenas por USB" },
+      { "correta": true, "texto": "Armazenam temporariamente dados e resultados dentro do processador, com acesso rápido" }
+    ]
+  },
+  {
+    "numero": 31,
+    "enunciado": "Qual característica da memória RAM explica a perda de seu conteúdo quando o computador é desligado?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": true, "texto": "Ela é volátil e não mantém permanentemente os dados" },
+      { "correta": false, "texto": "Ela só permite leitura de dados gravados pelo fabricante" },
+      { "correta": false, "texto": "Ela é um dispositivo óptico removível" },
+      { "correta": false, "texto": "Ela armazena dados exclusivamente em fita magnética" },
+      { "correta": false, "texto": "Ela funciona apenas como memória cache do processador" }
+    ]
+  },
+  {
+    "numero": 32,
+    "enunciado": "O que significa dizer que a RAM é uma memória de acesso aleatório?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Os dados só podem ser acessados na ordem em que foram gravados" },
+      { "correta": false, "texto": "Ela é acessada somente quando o computador é desligado" },
+      { "correta": false, "texto": "O processador precisa percorrer toda a memória desde o primeiro endereço" },
+      { "correta": true, "texto": "É possível acessar diretamente posições da memória, sem percorrer sequencialmente todos os dados" },
+      { "correta": false, "texto": "Os dados são acessados apenas por dispositivos externos" }
+    ]
+  },
+  {
+    "numero": 33,
+    "enunciado": "Qual afirmação sobre a memória ROM está de acordo com a descrição do ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "É a memória volátil usada para armazenar temporariamente os programas em execução" },
+      { "correta": false, "texto": "É um tipo de barramento usado para transferir dados entre CPU e monitor" },
+      { "correta": true, "texto": "Mantém informações básicas sobre o hardware gravadas em um chip pelo fabricante" },
+      { "correta": false, "texto": "É uma memória secundária removível que utiliza discos ópticos" },
+      { "correta": false, "texto": "É o registrador que armazena a próxima instrução da CPU" }
+    ]
+  },
+  {
+    "numero": 34,
+    "enunciado": "Qual alternativa contém apenas exemplos de memória secundária listados no material?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Registradores, RAM e cache" },
+      { "correta": false, "texto": "ULA, UC e PC" },
+      { "correta": false, "texto": "BIOS, flags e MBR" },
+      { "correta": true, "texto": "Disco rígido, DVD e memória USB" },
+      { "correta": false, "texto": "Barramento de dados, de controle e de endereços" }
+    ]
+  },
+  {
+    "numero": 35,
+    "enunciado": "Quais dimensões são usadas principalmente para representar a hierarquia de memória no ebook?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Cor e resolução" },
+      { "correta": false, "texto": "Consumo de energia e tamanho do monitor" },
+      { "correta": false, "texto": "Quantidade de usuários e número de programas" },
+      { "correta": false, "texto": "Largura do barramento e velocidade da impressora" },
+      { "correta": true, "texto": "Capacidade de armazenamento e velocidade de acesso" }
+    ]
+  },
+  {
+    "numero": 36,
+    "enunciado": "Qual é o principal benefício da memória cache para o processador?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Armazenar permanentemente todos os arquivos do computador" },
+      { "correta": true, "texto": "Manter dados acessados com frequência disponíveis para acesso mais rápido" },
+      { "correta": false, "texto": "Substituir os dispositivos de entrada e saída" },
+      { "correta": false, "texto": "Executar o sistema operacional sem utilizar a CPU" },
+      { "correta": false, "texto": "Aumentar a capacidade física do disco rígido" }
+    ]
+  },
+  {
+    "numero": 37,
+    "enunciado": "No mapeamento direto de cache, como um bloco da memória principal é associado à cache?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Pode ser armazenado simultaneamente em qualquer número de linhas" },
+      { "correta": false, "texto": "É sempre gravado diretamente na memória ROM" },
+      { "correta": false, "texto": "É dividido entre todos os registradores do processador" },
+      { "correta": true, "texto": "É mapeado para uma linha específica da cache" },
+      { "correta": false, "texto": "É enviado somente para a memória secundária" }
+    ]
+  },
+  {
+    "numero": 38,
+    "enunciado": "Uma cache possui 1024 linhas, cada uma com 64 bytes, e usa endereços de 32 bits. No exemplo do ebook, quantos bits são usados para o índice e para o deslocamento dentro da linha?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "6 bits para índice e 10 bits para deslocamento" },
+      { "correta": false, "texto": "16 bits para índice e 10 bits para deslocamento" },
+      { "correta": true, "texto": "10 bits para índice e 6 bits para deslocamento" },
+      { "correta": false, "texto": "10 bits para índice e 16 bits para deslocamento" },
+      { "correta": false, "texto": "16 bits para índice e 6 bits para deslocamento" }
+    ]
+  },
+  {
+    "numero": 39,
+    "enunciado": "O que diferencia as memórias SDRAM, de acordo com o conteúdo sobre sua evolução?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Armazenam dados sem energia e não precisam de barramento" },
+      { "correta": true, "texto": "Sincronizam seu funcionamento com o barramento do sistema" },
+      { "correta": false, "texto": "Utilizam discos ópticos para guardar cada bit" },
+      { "correta": false, "texto": "São registradores instalados dentro da ULA" },
+      { "correta": false, "texto": "Executam as funções da unidade de controle" }
+    ]
+  },
+  {
+    "numero": 40,
+    "enunciado": "Qual organização de cache combina características de outras formas de mapeamento e é conhecida como N-Way?",
+    "anulada": false,
+    "embaralhar_alternativas": true,
+    "alternativas": [
+      { "correta": false, "texto": "Mapeamento sequencial" },
+      { "correta": false, "texto": "Mapeamento por polling" },
+      { "correta": false, "texto": "Mapeamento de memória virtual" },
+      { "correta": false, "texto": "Mapeamento por registrador" },
+      { "correta": true, "texto": "Associatividade por conjunto" }
+    ]
+  }
+]
